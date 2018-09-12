@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fbf6905b-4c94-4a29-8d67-d6ed3ebf5cb0" name="Default Changelist" comment="" />
+    <list default="true" id="fbf6905b-4c94-4a29-8d67-d6ed3ebf5cb0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Telefone.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -20,9 +27,10 @@
     <session id="-114831221">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -37,48 +45,45 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="509" />
+          <entry key="java" value="925" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="509" />
+          <entry key="JAVA" value="925" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Agenda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               <folding>
-                <element signature="e#83#91#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#181#182#0" expanded="true" />
-                <element signature="e#209#210#0" expanded="true" />
-                <element signature="e#259#260#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#488#489#0" expanded="true" />
-                <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#569#570#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#327#328#0" expanded="true" />
+                <element signature="e#355#356#0" expanded="true" />
+                <element signature="e#403#404#0" expanded="true" />
+                <element signature="e#431#432#0" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#517#518#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#696#697#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,35 +92,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Pessoa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="38" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
-              <folding>
-                <element signature="e#210#211#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#308#309#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#554#555#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#717#718#0" expanded="true" />
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="455">
+              <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Telefone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -124,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Email.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -319,8 +306,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6146668459000" />
+        <entry key="$PROJECT_DIR$" value="6146998629000" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1472128555" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3423330089" />
       </map>
     </option>
@@ -436,10 +424,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/poo/Principal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/poo/Agenda.java" />
         <option value="$PROJECT_DIR$/src/main/java/poo/Pessoa.java" />
         <option value="$PROJECT_DIR$/src/main/java/poo/Email.java" />
         <option value="$PROJECT_DIR$/src/main/java/poo/Telefone.java" />
-        <option value="$PROJECT_DIR$/src/main/java/poo/Agenda.java" />
       </list>
     </option>
   </component>
@@ -449,7 +438,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="960" />
     <option name="y" value="24" />
     <option name="width" value="960" />
@@ -463,9 +452,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -503,12 +489,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536668009664" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -538,27 +528,23 @@
       <option name="presentableId" value="Default" />
       <updated>1536667104116</updated>
       <workItem from="1536667110703" duration="1451000" />
+      <workItem from="1536749738755" duration="5059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1451000" />
+    <option name="totallyTimeSpent" value="6510000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="24" width="960" height="1032" extended-state="4" />
+    <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5131579" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25572917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.33001107" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -566,16 +552,21 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Gradle" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.33001107" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,13 +576,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Principal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -603,66 +587,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Email.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Telefone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/poo/Pessoa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
-          <folding>
-            <element signature="e#210#211#0" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-            <element signature="e#308#309#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#394#395#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-            <element signature="e#554#555#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#717#718#0" expanded="true" />
-            <element signature="e#774#775#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="455">
+          <caret line="62" column="24" lean-forward="true" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/poo/Agenda.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#83#91#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#569#570#0" expanded="true" />
-            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#327#328#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#517#518#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Telefone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
