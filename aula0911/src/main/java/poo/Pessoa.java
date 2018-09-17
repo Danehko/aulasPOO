@@ -20,10 +20,12 @@ public class Pessoa {
         this.nome = n;
         this.sobreNome = s;
         this.dataNasc = d;
+        this.telefones = new Telefone();
+        this.emails = new Email();
     }
 
     public boolean addTelefone(String r, String n){
-        if(telefones.add(r,n)==true){
+        if(this.telefones.add(r,n)==true){
             return true;
         }
         else{
@@ -32,7 +34,7 @@ public class Pessoa {
     }
 
     public boolean addEmail(String r, String n){
-        if(emails.add(r,n)==true){
+        if(this.emails.add(r,n)==true){
             return true;
         }
         else{
@@ -41,7 +43,7 @@ public class Pessoa {
     }
 
     public boolean removeTelefone(String r){
-        if(telefones.remove(r,n)==true){
+        if(this.telefones.remove(r)==true){
             return true;
         }
         else{
@@ -50,7 +52,7 @@ public class Pessoa {
     }
 
     public boolean removeEmail(String r){
-        if(emails.remove(r,n)==true){
+        if(this.emails.remove(r,n)==true){
             return true;
         }
         else{
@@ -59,7 +61,7 @@ public class Pessoa {
     }
 
     public boolean updateTelefone(String r, String n){
-        if(telefones.update(r,n)==true){
+        if(this.telefones.update(r,n)==true){
             return true;
         }
         else{
@@ -68,7 +70,7 @@ public class Pessoa {
     }
 
     public boolean updateEmail(String r, String n){
-        if(emails.update(r,n)==true){
+        if(this.emails.update(r,n)==true){
             return true;
         }
         else{

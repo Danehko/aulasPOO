@@ -19,6 +19,7 @@ public class Agenda {
     }
 
     public boolean addEmail(String r, String n, int pIndex){
+
         return false;
     }
 
@@ -27,14 +28,17 @@ public class Agenda {
     }
 
     public boolean removeEmail(String r, int pIndex){
+
         return false;
     }
 
     public boolean updateTelefone(String r, String n, int pIndex){
+
         return false;
     }
 
     public boolean updateEmail(String r, String n, int pIndex){
+        r
         return false;
     }
 

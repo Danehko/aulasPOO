@@ -7,7 +7,7 @@ public class Telefone {
     private HashMap <String,String> dados = new HashMap<>();
 
     public boolean add(String r, String n){
-        if((this.dados.containsKey(r)==true)&&(!(r.matches(telRegexr))){
+        if((this.dados.containsKey(r)==true)||(!(r.matches(telRegexr)))){
                 return false;
         }
         else{
@@ -16,9 +16,8 @@ public class Telefone {
         }
     }
 
-
     public boolean remove(String r){
-        if((this.dados.containsKey(r)==true)&&(r.matches(telRegexr)){
+        if((this.dados.containsKey(r)==true)&&(r.matches(telRegexr))){
             this.dados.remove(r);
             return true;
         }
@@ -28,7 +27,7 @@ public class Telefone {
     }
 
     public boolean update(String r, String n){
-        if((this.dados.containsKey(r)==true)&&(r.matches(telRegexr)){
+        if((this.dados.containsKey(r)==true)&&(r.matches(telRegexr))){
             this.dados.replace(r,n);
             return true;
         }

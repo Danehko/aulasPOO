@@ -4,9 +4,10 @@ import java.util.HashMap;
 public class Email {
     private final String emailRegexr ="^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$";
     private HashMap<String,String> dados = new HashMap<>();
+    private String senha;
 
     public boolean add(String r, String e){
-        if(this.dados.containsKey(r)==true){
+        if((this.dados.containsKey(r)==true)||(!(r.matches(emailRegexr)))){
             return false;
         }
         else{
@@ -16,7 +17,7 @@ public class Email {
     }
 
     public boolean remove(String r){
-        if(this.dados.containsKey(r)==true){
+        if((this.dados.containsKey(r)==true)&&(r.matches(emailRegexr))){
             this.dados.remove(r);
             return true;
         }
@@ -26,7 +27,7 @@ public class Email {
     }
 
     public boolean update(String r, String e){
-        if(this.dados.containsKey(r)==true){
+        if((this.dados.containsKey(r)==true)&&(r.matches(emailRegexr))){
             this.dados.replace(r,e);
             return true;
         }
