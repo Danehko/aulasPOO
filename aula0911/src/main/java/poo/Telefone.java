@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class Telefone {
 
-    private final String telRegexr = "[1-9][0-9][9][0-9{8}|[1-9][0-9]{9}";
+    private final String telRegexr = "[1-9][0-9][9][0-9]{8}|[1-9][0-9]{9}";
     private HashMap <String,String> dados = new HashMap<>();
 
     public boolean add(String r, String n){

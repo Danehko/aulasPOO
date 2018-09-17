@@ -16,10 +16,9 @@ public class Pessoa {
         this.telefones = t;
         this.emails = e;
     }
-    public Pessoa(String n, String s, LocalDate d){
+    public Pessoa(String n, String s){
         this.nome = n;
         this.sobreNome = s;
-        this.dataNasc = d;
         this.telefones = new Telefone();
         this.emails = new Email();
     }
