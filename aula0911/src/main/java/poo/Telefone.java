@@ -1,4 +1,9 @@
 package poo;
+
+/**
+ * @autor Daniel Cabral Correa
+ */
+
 import java.util.HashMap;
 
 public class Telefone {
@@ -26,6 +31,11 @@ public class Telefone {
         }
     }
 
+    public HashMap<String, String> getDados() {
+
+        return dados;
+    }
+
     public boolean update(String r, String n){
         if((this.dados.containsKey(r)==true)&&(r.matches(telRegexr))){
             this.dados.replace(r,n);
@@ -35,8 +45,10 @@ public class Telefone {
             return false;
         }
     }
-    public String toString(){
-        String n;
-        return n;
-    }
+
+    /*public void toString(){
+        dados.forEach((chave,valor)->{
+        System.out.println(valor);
+        });
+    }*/
 }

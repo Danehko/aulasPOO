@@ -1,10 +1,14 @@
 package poo;
+
+/**
+ * @autor Daniel Cabral Correa
+ */
+
 import java.util.HashMap;
 
 public class Email {
     private final String emailRegexr ="^[\\w-\\+]+(\\.[\\w]+)*@[\\w-]+(\\.[\\w]+)*(\\.[a-z]{2,})$";
     private HashMap<String,String> dados = new HashMap<>();
-    private String senha;
 
     public boolean add(String r, String e){
         if((this.dados.containsKey(r)==true)||(!(r.matches(emailRegexr)))){
@@ -35,8 +39,14 @@ public class Email {
             return false;
         }
     }
-    public String toString(){
+
+
+    public HashMap<String, String> getDados() {
+        return dados;
+    }
+
+/*public String toString(){
         String n;
         return n;
-    }
+    }*/
 }

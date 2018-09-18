@@ -1,13 +1,17 @@
 package poo;
 
+/**
+ * @autor Daniel Cabral Correa
+ */
+
 import java.time.LocalDate;
 
 public class Pessoa {
     private String nome;
     private String sobreNome;
     private LocalDate dataNasc;
-    public Telefone telefones;
-    public Email emails;
+    private Telefone telefones;
+    private Email emails;
 
     public Pessoa(String n, String s, Telefone t, Email e, LocalDate d){
         this.nome = n;
@@ -16,9 +20,10 @@ public class Pessoa {
         this.telefones = t;
         this.emails = e;
     }
-    public Pessoa(String n, String s){
+    public Pessoa(String n, String s, String d){
         this.nome = n;
         this.sobreNome = s;
+        this.dataNasc = d;
         this.telefones = new Telefone();
         this.emails = new Email();
     }
@@ -77,8 +82,27 @@ public class Pessoa {
         }
     }
 
-    public String toString(){
+    public String getNome() {
+        return nome;
+    }
+
+    public String getSobreNome() {
+        return sobreNome;
+    }
+
+    public LocalDate getDataNasc() {
+        return dataNasc;
+    }
+
+    public Telefone getTelefones() {
+        return telefones;
+    }
+
+    public Email getEmails() {
+        return emails;
+    }
+/*public String toString(){
         String n;
         return n;
-    }
+    }*/
 }
