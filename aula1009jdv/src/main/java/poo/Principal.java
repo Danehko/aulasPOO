@@ -9,8 +9,6 @@ public class Principal {
     private JRadioButton humano2RadioButton;
     private JRadioButton computador1RadioButton;
     private JRadioButton computador2RadioButton;
-    private JTextField textField1;
-    private JTextField textField2;
     private JButton jogar1Button;
     private JButton jogar2Button;
     private JButton startButton;
@@ -25,6 +23,22 @@ public class Principal {
     private JLabel pos9;
     private JLabel resultado;
     private JPanel painelPrincipal;
+    private JButton button1;
+    private JButton button2;
+    private JButton button3;
+    private JButton x5Button;
+    private JButton x4Button;
+    private JButton x1Button;
+    private JButton x2Button;
+    private JButton x3Button;
+    private JButton button9;
+    private JButton button10;
+    private JButton button11;
+    private JButton button12;
+    private JButton button13;
+    private JButton button14;
+    private JButton button15;
+    private JButton button16;
     private int iniciado = 0;
     private int jogadas = 0;
 
@@ -51,7 +65,7 @@ public class Principal {
     }
 
     public void compara(){
-        if(this.iniciado == 1 && (this.jogadas%2)==0){
+        if(this.iniciado == 1 && (this.jogadas%2)==0) && (){
             jogar1Button.setEnabled(true);
             jogar2Button.setEnabled(false);
         }
