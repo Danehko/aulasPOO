@@ -27,18 +27,25 @@ public class Principal {
     private JRadioButton humanoRadioButton1;
     private JRadioButton computadorRadioButton1;
     private int iniciar = 0;
+    private int jogadas = 0;
     private String j1;
     private String j2;
 
 
     public void troca(JLabel Labelxx,JLabel Jogador){
-        if(Jogador.getText().equals(this.j1)){
-            Labelxx.setText("X");
-            Jogador.setText(this.j2);
+        if(Jogador.getText().equals(this.j1)) {
+            if (Labelxx.getText().equals("--")){
+                Labelxx.setText("X");
+                Jogador.setText(this.j2);
+                this.jogadas = this.jogadas + 1;
+            }
         }
         else{
-            Labelxx.setText("O");
-            Jogador.setText(this.j1);
+            if (Labelxx.getText().equals("--")) {
+                Labelxx.setText("O");
+                Jogador.setText(this.j1);
+                this.jogadas = this.jogadas + 1;
+            }
         }
     }
 
@@ -55,6 +62,7 @@ public class Principal {
     }
 
     public void inicio(){
+        this.jogadas=0;
         this.iniciar=1;
     }
 

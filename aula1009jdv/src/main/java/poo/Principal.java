@@ -65,7 +65,7 @@ public class Principal {
     }
 
     public void compara(){
-        if(this.iniciado == 1 && (this.jogadas%2)==0) && (){
+        if(this.iniciado == 1 && (this.jogadas%2)==0){
             jogar1Button.setEnabled(true);
             jogar2Button.setEnabled(false);
         }
