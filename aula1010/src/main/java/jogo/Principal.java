@@ -26,6 +26,7 @@ public class Principal {
     private JRadioButton computadorRadioButton;
     private JRadioButton humanoRadioButton1;
     private JRadioButton computadorRadioButton1;
+    private JButton recomeçarButton;
     private int iniciar = 0;
     private int jogadas = 0;
     private String j1;
@@ -59,11 +60,15 @@ public class Principal {
         Label20.setText("--");
         Label21.setText("--");
         Label22.setText("--");
+        this.iniciar=0;
     }
 
     public void inicio(){
         this.jogadas=0;
         this.iniciar=1;
+        Jogador jogador1 = new Jogador(1,this.j1);
+        Jogador jogador2 = new Jogador(2, this.j2);
+        JogoDaVelha jogo = new JogoDaVelha();
     }
 
     public void nome(){
@@ -73,6 +78,7 @@ public class Principal {
         else{
             this.j1=jogadorTF1.getText();
         }
+
         if(jogadorTF2.getText().equals("")){
             this.j2="jogador2";
         }
@@ -80,6 +86,7 @@ public class Principal {
             this.j2=jogadorTF2.getText();
         }
     }
+
 
     public Principal() {
         Label00.addMouseListener(new MouseAdapter() {
@@ -167,20 +174,28 @@ public class Principal {
             @Override
             public void actionPerformed(ActionEvent e) {
                 limpar();
-                inicio();
                 nome();
+                inicio();
                 Random r = new Random();
                 int i=r.nextInt(2)+1;
                 System.out.println(i);
                 if(i==1){
-                    Jogador.setText(j1);
+                    Jogador.setText("Turno do jogador " + j1);
                 }
                 else{
-                    Jogador.setText(j2);
+                    Jogador.setText("Turno do jogador " + j2);
                 }
+
+            }
+        });
+        recomeçarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                limpar();
             }
         });
     }
+
 
     public static void main(String[] args) {
         JFrame frame = new JFrame("Jogo da velha");

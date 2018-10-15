@@ -1,23 +1,19 @@
 package jogo;
 
 public class Jogador {
-    private String marcador;
-    private int nMarcador;
-    private String player;
-    private int valor;
+    private int marcador;
+    private String nome;
 
-    public boolean Jogador(int seq, String player) {
-        this.player = player;
+    public Jogador(int seq,String nome) {
+        this.nome = nome;
         if (seq == 1){
-            this.marcador="X";
-            this.nMarcador=1;
-            return true;
+            this.marcador=1;
         }else if(seq == 2) {
-            this.marcador="O";
-            this.nMarcador=-1;
-            return true;
+            this.marcador=-1;
         }else{
-            return false;
+            System.out.println("ERRO!!!");
+            this.nome = "";
+            this.marcador = 0;
         }
     }
 }

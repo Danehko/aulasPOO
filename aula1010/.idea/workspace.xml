@@ -8,7 +8,9 @@
   <component name="ChangeListManager">
     <list default="true" id="95d9d2f0-3ce2-4fda-91de-e6c3ec570671" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../aula1009jdv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1009jdv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1009jdv/src/main/java/poo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1009jdv/src/main/java/poo/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jogo/Jogador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jogo/Jogador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jogo/JogoDaVelha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jogo/JogoDaVelha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jogo/Principal.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jogo/Principal.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/jogo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jogo/Principal.java" afterDir="false" />
     </list>
@@ -65,20 +67,22 @@
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+            <state relative-caret-position="262">
+              <caret line="193" column="25" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#5764#5765#0" expanded="true" />
+                <element signature="e#5804#5805#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Jogador.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Jogador.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Jogador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -86,17 +90,13 @@
       <file leaf-file-name="JogoDaVelha.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jogo/JogoDaVelha.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2715">
-              <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
-              <folding>
-                <element signature="e#5583#5584#0" expanded="true" />
-                <element signature="e#5631#5632#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Principal.form" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Principal.form" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.form">
           <provider selected="true" editor-type-id="ui-designer" />
         </entry>
@@ -291,7 +291,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6157144349000" />
+        <entry key="$PROJECT_DIR$" value="6158497688000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1472128555" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -413,10 +413,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/jogo/Principal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jogo/Principal.form" />
         <option value="$PROJECT_DIR$/src/main/java/jogo/JogoDaVelha.java" />
         <option value="$PROJECT_DIR$/src/main/java/jogo/Jogador.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jogo/Principal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jogo/Principal.form" />
       </list>
     </option>
   </component>
@@ -442,9 +442,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -482,6 +480,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -538,14 +538,15 @@
       <workItem from="1539169081243" duration="4847000" />
       <workItem from="1539176883685" duration="4828000" />
       <workItem from="1539286288559" duration="3209000" />
+      <workItem from="1539624533462" duration="5532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12884000" />
+    <option name="totallyTimeSpent" value="18416000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="26" width="1930" height="1035" extended-state="6" />
+    <frame x="-5" y="26" width="1290" height="979" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -557,12 +558,12 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49843505" weight="0.32756758" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49843505" weight="0.32681242" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24921794" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49947864" weight="0.32864866" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2488263" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49947864" weight="0.32796317" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -588,10 +589,41 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="47" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5764#5765#0" expanded="true" />
+            <element signature="e#5804#5805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/JogoDaVelha.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2685">
+          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.form">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Jogador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1065">
           <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5764#5765#0" expanded="true" />
+            <element signature="e#5804#5805#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -605,6 +637,8 @@
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#5764#5765#0" expanded="true" />
+            <element signature="e#5804#5805#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -612,37 +646,35 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.form">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/JogoDaVelha.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="true" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/JogoDaVelha.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Jogador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2715">
-          <caret line="181" column="1" selection-start-line="181" selection-start-column="1" selection-end-line="181" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="193" column="25" selection-start-line="193" selection-start-column="25" selection-end-line="193" selection-end-column="25" />
           <folding>
-            <element signature="e#5583#5584#0" expanded="true" />
-            <element signature="e#5631#5632#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5764#5765#0" expanded="true" />
+            <element signature="e#5804#5805#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.form">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="ui-designer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Jogador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
-        </state>
-      </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
