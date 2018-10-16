@@ -26,7 +26,7 @@ public class Principal {
     private JRadioButton computadorRadioButton;
     private JRadioButton humanoRadioButton1;
     private JRadioButton computadorRadioButton1;
-    private JButton recomeçarButton;
+    private JButton recomecarButton;
     private int iniciar = 0;
     private int jogadas = 0;
     private String j1;
@@ -39,6 +39,9 @@ public class Principal {
                 Labelxx.setText("X");
                 Jogador.setText(this.j2);
                 this.jogadas = this.jogadas + 1;
+                if(this.jogadas == 9){
+                    recomecarButton.enableInputMethods(true);
+                }
             }
         }
         else{
@@ -66,8 +69,9 @@ public class Principal {
     public void inicio(){
         this.jogadas=0;
         this.iniciar=1;
-        Jogador jogador1 = new Jogador(1,this.j1);
-        Jogador jogador2 = new Jogador(2, this.j2);
+        if()
+        Jogador jogador1 = new Jogador(1,this.j1,);
+        Jogador jogador2 = new Jogador(2, this.j2,);
         JogoDaVelha jogo = new JogoDaVelha();
     }
 
@@ -188,7 +192,7 @@ public class Principal {
 
             }
         });
-        recomeçarButton.addActionListener(new ActionListener() {
+        recomecarButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 limpar();
