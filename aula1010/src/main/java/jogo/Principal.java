@@ -69,9 +69,8 @@ public class Principal {
     public void inicio(){
         this.jogadas=0;
         this.iniciar=1;
-        if()
-        Jogador jogador1 = new Jogador(1,this.j1,);
-        Jogador jogador2 = new Jogador(2, this.j2,);
+        Jogador jogador1 = new Jogador(1,this.j1, "human");
+        Jogador jogador2 = new Jogador(2, this.j2, "human");
         JogoDaVelha jogo = new JogoDaVelha();
     }
 
