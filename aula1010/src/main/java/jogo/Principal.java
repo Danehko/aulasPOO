@@ -33,14 +33,15 @@ public class Principal {
     private String j2;
 
 
-    public void troca(JLabel Labelxx,JLabel Jogador){
+    public void alterarCaracter(JLabel Labelxx,JLabel Jogador){
         if(Jogador.getText().equals(this.j1)) {
             if (Labelxx.getText().equals("--")){
                 Labelxx.setText("X");
                 Jogador.setText(this.j2);
                 this.jogadas = this.jogadas + 1;
+                System.out.println("Jogada" + this.jogadas);
                 if(this.jogadas == 9){
-                    recomecarButton.enableInputMethods(true);
+                    recomecarButton.setEnabled(true);
                 }
             }
         }
@@ -49,6 +50,10 @@ public class Principal {
                 Labelxx.setText("O");
                 Jogador.setText(this.j1);
                 this.jogadas = this.jogadas + 1;
+                System.out.println("Jogada" + this.jogadas);
+                if(this.jogadas == 9){
+                    recomecarButton.setEnabled(true);
+                }
             }
         }
     }
@@ -63,7 +68,6 @@ public class Principal {
         Label20.setText("--");
         Label21.setText("--");
         Label22.setText("--");
-        this.iniciar=0;
     }
 
     public void inicio(){
@@ -97,7 +101,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label00, Jogador);
+                    alterarCaracter(Label00, Jogador);
                 }
             }
         });
@@ -106,7 +110,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label01, Jogador);
+                    alterarCaracter(Label01, Jogador);
                 }
             }
         });
@@ -115,7 +119,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label02, Jogador);
+                    alterarCaracter(Label02, Jogador);
                 }
             }
         });
@@ -124,7 +128,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label10, Jogador);
+                    alterarCaracter(Label10, Jogador);
                 }
             }
         });
@@ -133,7 +137,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label11, Jogador);
+                    alterarCaracter(Label11, Jogador);
                 }
             }
         });
@@ -142,7 +146,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label12, Jogador);
+                    alterarCaracter(Label12, Jogador);
                 }
             }
         });
@@ -151,7 +155,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label20, Jogador);
+                    alterarCaracter(Label20, Jogador);
                 }
             }
         });
@@ -160,7 +164,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label21, Jogador);
+                    alterarCaracter(Label21, Jogador);
                 }
             }
         });
@@ -169,7 +173,7 @@ public class Principal {
             public void mouseClicked(MouseEvent e) {
                 super.mouseClicked(e);
                 if(iniciar==1) {
-                    troca(Label22, Jogador);
+                    alterarCaracter(Label22, Jogador);
                 }
             }
         });
