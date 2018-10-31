@@ -87,7 +87,7 @@ public class Agenda {
         if(this.contatos.size()<pIndex){
             return false;
         }else{
-            Pessoa pessoa = this.contatos.get(pIndex);]
+            Pessoa pessoa = this.contatos.get(pIndex);
             pessoa.updateEmail(rotulo,email);
             return true;
         }
