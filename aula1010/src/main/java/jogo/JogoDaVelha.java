@@ -51,7 +51,6 @@ public class JogoDaVelha {
         else{
             return false;
         }
-
     }
 
     public boolean perder(Jogador j){
