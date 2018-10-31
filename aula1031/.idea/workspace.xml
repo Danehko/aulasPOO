@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cc2677a-e420-4c0b-8d13-6a4e96e10fca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../aula1010/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1010/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Email.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Email.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/poo/Telefone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/poo/Telefone.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,6 +26,7 @@
     <session id="-868762333">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -38,23 +43,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="533" />
+          <entry key="java" value="977" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="533" />
+          <entry key="JAVA" value="977" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Agenda.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1110">
-              <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
+            <state relative-caret-position="-495">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
               <folding>
                 <element signature="e#208#209#0" expanded="true" />
                 <element signature="e#244#245#0" expanded="true" />
@@ -66,8 +71,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Telefone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
+            <state relative-caret-position="675">
+              <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+              <folding>
+                <element signature="e#821#822#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,8 +84,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="345">
+              <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+              <folding>
+                <element signature="e#1040#1041#0" expanded="true" />
+                <element signature="e#1068#1069#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,8 +97,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/Pessoa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+            <state relative-caret-position="225">
+              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="e#1805#1806#0" expanded="true" />
+                <element signature="e#1832#1833#0" expanded="true" />
+                <element signature="e#1868#1869#0" expanded="true" />
+                <element signature="e#1900#1901#0" expanded="true" />
+                <element signature="e#1938#1939#0" expanded="true" />
+                <element signature="e#1969#1970#0" expanded="true" />
+                <element signature="e#2007#2008#0" expanded="true" />
+                <element signature="e#2039#2040#0" expanded="true" />
+                <element signature="e#2071#2072#0" expanded="true" />
+                <element signature="e#2100#2101#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -99,11 +124,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/poo/PersistirEmDisco.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -486,7 +511,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540985605945" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540988048156" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -533,16 +558,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540983952488</updated>
-      <workItem from="1540983953962" duration="2212000" />
+      <workItem from="1540983953962" duration="4545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2212000" />
+    <option name="totallyTimeSpent" value="4545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="24" width="1922" height="1033" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -583,35 +607,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Email.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/poo/PersistirEmDisco.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Agenda.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1110">
-          <caret line="74" column="62" selection-start-line="74" selection-start-column="62" selection-end-line="74" selection-end-column="62" />
-          <folding>
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Telefone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="44" selection-start-line="40" selection-start-column="44" selection-end-line="40" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Pessoa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -622,10 +621,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/poo/PersistirEmDisco.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="345">
+          <caret line="23" column="65" selection-start-line="23" selection-start-column="65" selection-end-line="23" selection-end-column="65" />
+          <folding>
+            <element signature="e#1040#1041#0" expanded="true" />
+            <element signature="e#1068#1069#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Pessoa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#1805#1806#0" expanded="true" />
+            <element signature="e#1832#1833#0" expanded="true" />
+            <element signature="e#1868#1869#0" expanded="true" />
+            <element signature="e#1900#1901#0" expanded="true" />
+            <element signature="e#1938#1939#0" expanded="true" />
+            <element signature="e#1969#1970#0" expanded="true" />
+            <element signature="e#2007#2008#0" expanded="true" />
+            <element signature="e#2039#2040#0" expanded="true" />
+            <element signature="e#2071#2072#0" expanded="true" />
+            <element signature="e#2100#2101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Telefone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
+          <folding>
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/poo/Agenda.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

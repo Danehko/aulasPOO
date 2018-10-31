@@ -40,13 +40,8 @@ public class Email {
         }
     }
 
-
     public HashMap<String, String> getDados() {
         return dados;
     }
 
-/*public String toString(){
-        String n;
-        return n;
-    }*/
 }

@@ -13,10 +13,19 @@ public class Agenda {
         this.contatos.add(pessoa);
     }
 
-    public boolean removePessoa(String nome, String sobreNome){
-        Pessoa delete = new Pessoa(nome,sobreNome);
-        if(this.contatos.contains(delete)==true){
-            this.contatos.remove(delete);
+    public boolean removePessoa(String nome, String sobreNome){//
+        int totalPessoas = this.contatos.size();
+        int pos = 0;
+        int aux = 0;
+        while(pos != totalPessoas){
+            Pessoa pessoa = this.contatos.get(pos);
+            if((pessoa.getNome()==nome) && (pessoa.getSobreNome()==sobreNome)){
+                this.contatos.remove(pos);
+                aux = aux + 1;
+            }
+            pos = pos + 1;
+        }
+        if (aux>0){
             return true;
         }
         else{
@@ -24,14 +33,12 @@ public class Agenda {
         }
     }
 
-    public boolean addTelefone(String rotulo, String nome, int pIndex) {
+    public boolean addTelefone(String rotulo, String numero, int pIndex) {
         if(this.contatos.size()<pIndex){
             return false;
         }else{
             Pessoa pessoa = this.contatos.get(pIndex);
-            this.contatos.remove(pessoa);
-            pessoa.addTelefone(rotulo,nome);
-            this.contatos.add(pIndex,pessoa);
+            pessoa.addTelefone(rotulo,numero);
             return true;
         }
     }
@@ -41,9 +48,7 @@ public class Agenda {
             return false;
         }else{
             Pessoa pessoa = this.contatos.get(pIndex);
-            this.contatos.remove(pessoa);
             pessoa.addEmail(rotulo,email);
-            this.contatos.add(pIndex,pessoa);
             return true;
         }
     }
@@ -53,9 +58,7 @@ public class Agenda {
             return false;
         }else{
             Pessoa pessoa = this.contatos.get(pIndex);
-            this.contatos.remove(pessoa);
             pessoa.removeTelefone(rotulo);
-            this.contatos.add(pIndex,pessoa);
             return true;
         }
     }
@@ -65,39 +68,29 @@ public class Agenda {
             return false;
         }else{
             Pessoa pessoa = this.contatos.get(pIndex);
-            this.contatos.remove(pessoa);
             pessoa.removeEmail(rotulo);
-            this.contatos.add(pIndex,pessoa);
             return true;
         }
     }
 
-    public boolean updateTelefone(String rotulo, String nome, int pIndex) {
+    public boolean updateTelefone(String rotulo, String numero, int pIndex) {
         if (this.contatos.size() < pIndex) {
             return false;
         } else {
-            Pessoa p = this.contatos.get(pIndex);
-            this.contatos.remove(p);
-            p.updateTelefone(r, n);
-            this.contatos.add(pIndex, p);
+            Pessoa pessoa = this.contatos.get(pIndex);
+            pessoa.updateTelefone(rotulo, numero);
             return true;
         }
     }
 
-    public boolean updateEmail(String r, String n, int pIndex){
+    public boolean updateEmail(String rotulo, String email, int pIndex){
         if(this.contatos.size()<pIndex){
             return false;
         }else{
-            Pessoa p = this.contatos.get(pIndex);
-            p.updateEmail(r,n);
-            this.contatos.add(pIndex,p);
+            Pessoa pessoa = this.contatos.get(pIndex);]
+            pessoa.updateEmail(rotulo,email);
             return true;
         }
     }
-
-    /*public String toString(){
-        String n;
-        return n;
-    }*/
 }
 

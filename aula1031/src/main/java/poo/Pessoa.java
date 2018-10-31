@@ -29,8 +29,8 @@ public class Pessoa {
         this.emails = new Email();
     }
 
-    public boolean addTelefone(String rotulo, String nome){
-        if(this.telefones.add(rotulo,nome)==true){
+    public boolean addTelefone(String rotulo, String numero){
+        if(this.telefones.add(rotulo,numero)==true){
             return true;
         }
         else{
@@ -38,8 +38,8 @@ public class Pessoa {
         }
     }
 
-    public boolean addEmail(String rotulo, String nome){
-        if(this.emails.add(rotulo, nome)==true){
+    public boolean addEmail(String rotulo, String email){
+        if(this.emails.add(rotulo, email)==true){
             return true;
         }
         else{
@@ -65,8 +65,8 @@ public class Pessoa {
         }
     }
 
-    public boolean updateTelefone(String rotulo, String nome){
-        if(this.telefones.update(rotulo,nome)==true){
+    public boolean updateTelefone(String rotulo, String numero){
+        if(this.telefones.update(rotulo,numero)==true){
             return true;
         }
         else{
@@ -74,8 +74,8 @@ public class Pessoa {
         }
     }
 
-    public boolean updateEmail(String rotulo, String nome){
-        if(this.emails.update(rotulo, nome)==true){
+    public boolean updateEmail(String rotulo, String email){
+        if(this.emails.update(rotulo, email)==true){
             return true;
         }
         else{
@@ -102,8 +102,5 @@ public class Pessoa {
     public Email getEmails() {
         return emails;
     }
-/*public String toString(){
-        String n;
-        return n;
-    }*/
+
 }

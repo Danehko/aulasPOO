@@ -32,7 +32,6 @@ public class Telefone {
     }
 
     public HashMap<String, String> getDados() {
-
         return dados;
     }
 
@@ -45,10 +44,4 @@ public class Telefone {
             return false;
         }
     }
-
-    /*public void toString(){
-        dados.forEach((chave,valor)->{
-        System.out.println(valor);
-        });
-    }*/
 }
