@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Xablau</string>
+    <string name="texto_saudacao">Olá mundo!</string>
+    <string name="mensagem">MENSAGEM</string>
+    <string name="contar">CONTAR</string>
+    <string name="contador">0</string>
+</resources>
