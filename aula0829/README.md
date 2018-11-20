@@ -1,0 +1,3 @@
+# exercicio triangulo
+# fazendo testes...
+

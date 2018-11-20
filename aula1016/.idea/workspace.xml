@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08b2e78f-fb77-443b-a2e7-b8e009cfef67" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../aula1031/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Principal.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/src/main/java/poo/PersistirEmDisco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/src/main/java/poo/PersistirEmDisco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0801/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0801/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0801/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0801/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0801/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0801/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0815/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0815/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0821/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0821/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0822/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0822/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0822atrasado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0822atrasado/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0828/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0828/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0829/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0829/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0911/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0911/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0926/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0926/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1009/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1009/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1009jdv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1009jdv/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1010/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1010/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -60,7 +67,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="Fluxo1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Fluxo1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -250,7 +267,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6163966022000" />
+        <entry key="$PROJECT_DIR$" value="6170951795000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1472128555" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -401,7 +418,7 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -431,14 +448,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539692372022" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aula1010" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -478,14 +495,16 @@
       <workItem from="1539691416333" duration="960000" />
       <workItem from="1540836166355" duration="78000" />
       <workItem from="1540993548771" duration="35000" />
+      <workItem from="1542744253210" duration="72000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1073000" />
+    <option name="totallyTimeSpent" value="1145000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="26" width="1290" height="979" extended-state="6" />
+    <frame x="0" y="26" width="1280" height="974" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -510,13 +529,13 @@
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Fluxo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+        <state relative-caret-position="120">
+          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="34" />
         </state>
       </provider>
     </entry>

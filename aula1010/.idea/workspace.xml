@@ -7,16 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95d9d2f0-3ce2-4fda-91de-e6c3ec570671" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../aula1031/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Principal.form" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1016/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1016/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/src/main/java/poo/PersistirEmDisco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/src/main/java/poo/PersistirEmDisco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1031/src/main/java/poo/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0801/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0801/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0801/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0801/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0801/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0801/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0815/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0815/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0821/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0821/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0822/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0822/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0822atrasado/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0822atrasado/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0828/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0828/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0829/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0829/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0911/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0911/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula0926/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula0926/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1009/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1009/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../aula1009jdv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../aula1009jdv/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -103,7 +106,7 @@
       <file leaf-file-name="Principal.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2303">
+            <state relative-caret-position="-75">
               <caret line="1" selection-start-line="1" selection-end-line="2" />
             </state>
           </provider>
@@ -307,7 +310,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6163966056000" />
+        <entry key="$PROJECT_DIR$" value="6170951752000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1472128555" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="2007532874" />
@@ -497,8 +500,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -563,14 +566,16 @@
       <workItem from="1540953330725" duration="5093000" />
       <workItem from="1540982405249" duration="27000" />
       <workItem from="1540993582603" duration="256000" />
+      <workItem from="1542744210488" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34668000" />
+    <option name="totallyTimeSpent" value="34700000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="26" width="1290" height="979" extended-state="6" />
+    <frame x="0" y="26" width="1280" height="974" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -585,7 +590,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2535211" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25273865" />
       <window_info anchor="bottom" id="Build" order="7" sideWeight="0.49947864" visible="true" weight="0.32681242" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Gradle" order="6" />
@@ -595,11 +600,11 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49921754" visible="true" weight="0.32884097" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Learn" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" sideWeight="0.49921754" visible="true" weight="0.32884097" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -651,6 +656,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jogo/JogoDaVelha.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -673,8 +685,8 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.form">
-      <provider editor-type-id="ui-designer" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="ui-designer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Jogador.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -699,7 +711,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jogo/Principal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2303">
+        <state relative-caret-position="-75">
           <caret line="1" selection-start-line="1" selection-end-line="2" />
         </state>
       </provider>
