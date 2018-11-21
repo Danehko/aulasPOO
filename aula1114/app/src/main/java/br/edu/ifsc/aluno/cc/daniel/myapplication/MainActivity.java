@@ -38,8 +38,10 @@ public class MainActivity extends AppCompatActivity {
         Intent it = new Intent(Intent.ACTION_DIAL,uri);
         startActivity(it);*/
 
-        Intent messageIntent = new Intent(this,SegundaActivity.class);
-        startActivity(messageIntent);
+        Intent intent = new Intent(this,SegundaActivity.class);
+        Bundle extras = new Bundle();
+        extras.putInt("contador", mcontador);
+        startActivityForResult(intent,20);
 
     }
 
@@ -47,5 +49,18 @@ public class MainActivity extends AppCompatActivity {
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         outState.putInt("count",mcontador);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if (requestCode == 20){
+            //colocar contador em zero
+            System.out.println("0");
+            if (resultCode == RESULT_OK)
+                //imprimir no LOG que foi cancelado
+                System.out.println("Cancelado");
+        }
     }
 }
