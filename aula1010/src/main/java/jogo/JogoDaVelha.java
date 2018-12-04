@@ -3,9 +3,10 @@ package jogo;
 import java.sql.SQLOutput;
 
 public class JogoDaVelha {
+    private int contador = 0;
     private int [] [] mat;
     private Jogador j1;
-    private Jogador j2;
+    private Computador pc1;
 
     public void setMat(int aux1,int aux2,int aux3,int aux4,int aux5,int aux6,int aux7,int aux8,int aux9){
         this.mat[0][0]=aux1;
@@ -21,6 +22,7 @@ public class JogoDaVelha {
 
     public void set(int posl, int posc, Jogador j){
         this.mat[posl][posc]= j.getMarcador();
+        this.contador++;
     }
 
     public boolean vencer(Jogador j){
@@ -83,4 +85,10 @@ public class JogoDaVelha {
         }
     }
 
+    public boolean velha(Jogador j){
+        if((vencer(j)==false)&&(perder(j))&&(this.contador==9)){
+            return true;
+        }
+        return false;
+    }
 }
